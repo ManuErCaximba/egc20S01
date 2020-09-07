@@ -27,16 +27,16 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'http://localhost:8000'
+BASEURL = 'http://10.5.0.1:8000'
 
 APIS = {
-    'authentication': localhost,
-    'base': localhost,
-    'booth': localhost,
-    'census': localhost,
-    'mixnet': localhost,
-    'postproc': localhost,
-    'store': localhost,
-    'visualizer': localhost,
-    'voting': localhost,
+    'authentication': BASEURL,
+    'base': BASEURL,
+    'booth': BASEURL,
+    'census': BASEURL,
+    'mixnet': BASEURL,
+    'postproc': BASEURL,
+    'store': BASEURL,
+    'visualizer': BASEURL,
+    'voting': BASEURL,
 }
